@@ -1,0 +1,17 @@
+# Get numbers from user
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+# Choose operation
+print("Choose: 1 for +, 2 for -, 3 for *")
+choice = input("Enter your choice: ")
+
+# Do the math
+if choice == '1':
+    print("Result:", a + b)
+elif choice == '2':
+    print("Result:", a - b)
+elif choice == '3':
+    print("Result:", a * b)
+else:
+    print("Wrong choice!")
